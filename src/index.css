@@ -1,0 +1,43 @@
+/* Hallmark · macrostructure: studied-DNA (mockup VideoBelajar) · tone: friendly · anchor hue: green 144
+ * theme: studied-DNA (source: image 2.png) · paper oklch(99.3% 0.013 97.4) · accent oklch(75.2% 0.211 144.5)
+ * fonts: Poppins (heading) + DM Sans (body)
+ * Hallmark · pre-emit critique: P4 H4 E4 S4 R5 V3
+ */
+@import "tailwindcss";
+
+/* Warna & font diambil dari mockup */
+@theme {
+  --color-*: initial;
+  --color-primary: oklch(75.2% 0.211 144.5);
+  --color-primary-dark: oklch(67.3% 0.194 144.3);
+  --color-primary-light: oklch(96.3% 0.054 137.6);
+  --color-focus: oklch(50.9% 0.144 144.9);
+  --color-accent: oklch(65% 0.216 34);
+  --color-yellow: oklch(83.8% 0.157 79.9);
+  --color-cream: oklch(99.3% 0.013 97.4);
+  --color-surface: oklch(99.7% 0.002 95);
+  --color-ink: oklch(25.6% 0.004 264.5);
+  --color-muted: oklch(52.8% 0.006 264);
+  --color-line: oklch(92% 0.003 308.4);
+
+  --font-sans: "DM Sans", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  overflow-wrap: anywhere;
+}
